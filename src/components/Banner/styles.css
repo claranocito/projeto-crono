@@ -1,0 +1,74 @@
+
+.banner-container {
+    padding: 20px 20px 80px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("./Banner1.png") no-repeat top;
+}
+
+.h1-banner {
+    color: rgb(255, 255, 255);
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-size: 80px;
+    text-align: center;
+    font-family: VanguardCF;
+}
+
+.text-container {
+    max-width: 600px;
+    text-align: center;
+
+}
+
+
+.p-banner {
+    color: white;
+    font-size: 21px;
+    padding-bottom: 60px;
+    font-family: AprovaSans;
+}
+
+.button-banner {
+    background-color: #00E88F;
+    padding: 20px;
+    border-radius: 100px;
+    font-family: AprovaSans;
+    font-size: 18px;
+    width: 350px;
+    border: 2px solid #02c47a;
+    cursor: pointer;
+}
+
+.link-button {
+    color: black;
+}
+
+strong {
+    color: #00E88F;
+}
+
+@media screen and (max-width: 600px) {
+    .h1-banner {
+        font-size: 45px;
+    }
+
+    .p-banner {
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+
+    .banner-container {
+        padding: 40px;
+    }
+
+    .button-banner {
+        font-size: 14px;
+        width: 240px;
+        padding: 15px;
+    }
+
+
+}

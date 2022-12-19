@@ -1,0 +1,122 @@
+.form {
+  font-family: AprovaSans;
+}
+
+.h1-form {
+  font-size: 30px;
+}
+
+.h3-form {
+  font-size: 27px;
+  padding: 50px 0px 24px;
+}
+
+input {
+  width: 40%;
+  height: 30px;
+  border-radius: 15px;
+  padding: 4px 15px;
+  margin-bottom: 20px;
+}
+
+table {
+  margin-top: 18px;
+  width: 60vw;
+  height: 40vh;
+  font-family: AprovaSans;
+  background-color: #00E88F;
+  border-radius: 20px;
+  padding: 39px 20px 20px 20px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.315);
+}
+
+/*
+td {
+  border: 1px solid rgba(0, 0, 0, 0.202);
+}
+*/
+
+select {
+  width: 44%;
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.button-form {
+  background-color: #269ff9;
+  padding: 12px;
+  border-radius: 100px;
+  font-family: AprovaSans;
+  font-size: 18px;
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 15px;
+  border: 2px solid #2593e8;
+  cursor: pointer;
+}
+
+.button-tabela {
+  background-color: #2593e8;
+  padding: 12px;
+  border-radius: 100px;
+  font-family: AprovaSans;
+  font-size: 18px;
+  width: 20%;
+  display: inline;
+  margin-left: 9%;
+  margin-top: 20px;
+  margin-right: 15px;
+  border: 2px solid #1d81cd;
+  cursor: pointer;
+}
+.a-button {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+  .h1-form {
+    font-size: 23px;
+  }
+
+  .h3-form {
+    font-size: 22px;
+  }
+
+  input {
+    width: 93%;
+    padding: 5px;
+  }
+
+  select {
+    width: 93%;
+  }
+
+  table {
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  th, td {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .button-form {
+    width: 50%;
+    font-size: 15px;
+    margin-left: 11%;
+  }
+
+  .button-tabela {
+      width: 40%;
+      font-size: 12px;
+      margin-left: 30%;
+  }
+}

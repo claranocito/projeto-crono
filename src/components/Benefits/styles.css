@@ -1,0 +1,49 @@
+.benefits-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.h2-benefits {
+    font-family: VanguardCF;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.benefits-text {
+    padding: 70px 70px 70px;
+    line-height: 50px;
+    font-family: AprovaSans;
+    font-size: 24px;
+}
+
+.benefits-img {
+    padding-top: 100px;
+}
+
+.topics {
+    padding: 20px;
+}
+
+.img-b {
+    padding: 80px;
+}
+
+strong {
+    color: #00E88F;
+}
+
+@media screen and (max-width: 600px) {
+    .h2-benefits {
+        font-size: 40px
+    }
+
+    .benefits-text { 
+        font-size: 15px;
+    }
+
+    .benefits-img {
+        display: none;
+    }
+}

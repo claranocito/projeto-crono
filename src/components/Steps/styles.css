@@ -1,0 +1,57 @@
+.steps-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-top: 70px;
+}
+
+.h2-steps {
+    font-family: VanguardCF;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.steps-text {
+    padding: 70px;
+    line-height: 50px;
+    font-family: AprovaSans;
+    font-size: 24px;
+    text-align: right;
+}
+
+.steps-img {
+    padding: 90px 70px 70px;
+}
+
+@media screen and (max-width: 600px) {
+    .steps-container {
+        padding-top: 0px;
+    }
+
+    .steps-img {
+        display: none;
+    }
+
+    .h2-steps {
+        font-size: 40px
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .steps-text { 
+        font-size: 15px;
+        
+    }
+
+    p {
+        line-height: 30px;
+    }
+}
