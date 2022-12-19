@@ -25,7 +25,7 @@ v16.18.0
 To clone repo:
 
 ```sh
-$ git clone git@github.com:descomplica/projeto-cronograma-estagio-tech
+$ git clone git@github.com:claranocito/projeto-estagio-descomplica.git
 ```
 
 To install all dependencies:
